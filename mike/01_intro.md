@@ -3,8 +3,8 @@
   RubyKaigi 2011
 </header>
 <h1>
-  JavaScript integration testing with<br />
-  <big>V8 engine &amp; Ruby</big>
+  <small>JavaScript integration testing with</small><br />
+  V8 engine &amp; Ruby
 </h1>
 <footer>
   Chris Kowalik <small>/ @nu7hatch</small>
