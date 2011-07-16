@@ -4,6 +4,7 @@
 </header>
 <h2>
   <a href="http://github.com/nu7hatch/mike">http://github.com/nu7hatch/mike</a>
+  <a href="http://github.com/nu7hatch/rk2011" style="font-size: 30px;">http://github.com/nu7hatch/rk2011</a>
 </h2>
 <footer style="padding-bottom: 100px;">
   <div style="line-height: 40px">
@@ -14,7 +15,7 @@
 </footer>
 
 <!SLIDE center main>
-<h1>Thanks for showoff!</h1>
+<h1>Showoff is awesome!</h1>
 <footer>
   <a href="http://github.com/.../showoff">http://github.com/.../showoff</a>
 </footer>
@@ -27,6 +28,3 @@
 * [http://v8.googlecode.com](http://v8.googlecode.com)
 * [http://chromium.org](http://chromium.org)
 * [http://github.com/joyent/node](http://github.com/joyent/node)
-
-<!SLIDE center>
-# Questions?
