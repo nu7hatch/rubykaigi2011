@@ -18,7 +18,7 @@
 
 <!SLIDE bullets incremental>
 * Lack of generic solution for headless integration testing
-* Over 2000 selenium steps running for more than 3 hours1
+* Over 2000 selenium steps running for more than 3 hours
 * Painful configuration across the machines and on CI server
 * Wish to learn how V8 engine works
 

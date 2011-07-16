@@ -4,7 +4,8 @@
 
 h1, h2 {
    font-weight: bold;
-   color: #FF6600;
+   color: #DD0000;
+   text-shadow: #BBB 3px 3px 3px;
 }
 
 .main header {
@@ -34,7 +35,7 @@ h1, h2 {
 }
 .main h1 {
    font-size: 80px;
-   color: #FF6600;
+   color: #DD0000;
    font-weight: bold;
 }
 

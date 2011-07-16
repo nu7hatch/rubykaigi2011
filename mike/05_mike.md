@@ -23,17 +23,11 @@
 </footer>
 
 <!SLIDE center>
-headless browser with testing API in C++
- +
-native extensions in Ruby, Python
-
-<!SLIDE center>
-# Inspirations
-
-<!SLIDE center bullets incremental>
-* HtmlUnit framework
-* WebKit browser
-* Node.JS and Zombie
+<h1 style="font-size: 55px; line-height: 85px;">
+Browser with testing API in C++<br />
++<br />
+Native extensions in Ruby, Python
+</h1>
 
 <!SLIDE center>
 # New scaffold
@@ -48,6 +42,14 @@ native extensions in Ruby, Python
 <h1 style="position: absolute; top: 20px; left: 65px; font-size: 65px; color: #001155;">
   KAMEHAMEHAAAA!
 </h1>
+
+<!SLIDE center>
+# Inspirations
+
+<!SLIDE center bullets incremental>
+* HtmlUnit framework
+* WebKit browser
+* Node.JS and Zombie
 
 <!SLIDE center>
 # Things done

@@ -7,7 +7,7 @@
 * Speed...
 * Friendly API
 * Portability
-* Did i mention speed?
+* Did I mention speed?
 
 <!SLIDE center meme>
 <img src="images/accepted.png" />
@@ -16,9 +16,11 @@
 # First plan...
 
 <!SLIDE center>
-Fast V8 extension for Ruby
-+
+<h1 style="font-size: 70px; line-height: 100px;">
+Fast V8 extension for Ruby<br />
++<br />
 Browser implementation
+</h1>
 
 <!SLIDE center>
 # Scaffold
