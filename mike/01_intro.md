@@ -1,17 +1,34 @@
+<!SLIDE center>
+
+<!SLIDE center>
+# Chris Kowalik
+
+<!SLIDE center>
+# @nu7hatch
+
+<!SLIDE center>
+# @nu7
+
+<!SLIDE center>
+# Polska!
+
 <!SLIDE center main>
-<header>
-  RubyKaigi 2011
-</header>
+<h1>
+  <small>Montevideo</small><br />
+  <span style="color: #88BBEE;">Uruguay</span>
+</h1>
+
+<!SLIDE center>
+Cubox logo
+
+<!SLIDE center main>
 <h1>
   <small>JavaScript integration testing with</small><br />
   V8 engine &amp; Ruby
 </h1>
-<footer>
-  Chris Kowalik <small>/ @nu7hatch</small>
-</footer>
 
-<!SLIDE center meme>
-<img src="images/wee.png" />
+<!SLIDE center meme wee with-title>
+# Headless browser!
 
 <!SLIDE center>
 # Why?

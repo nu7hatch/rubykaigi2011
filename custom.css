@@ -5,7 +5,7 @@
 h1, h2 {
    font-weight: bold;
    color: #DD0000;
-   text-shadow: #BBB 3px 3px 3px;
+   text-shadow: #CCC 3px 3px 2px;
 }
 
 .main header {
@@ -66,7 +66,6 @@ h1, h2 {
 }
 
 .bullets.with-title h1 {
-   font-weight: normal;
 }
 
 .resources {
@@ -78,6 +77,7 @@ h1, h2 {
 
 pre {
    font-size: 28px;
+   padding-left: 50px;
 }
 code {
    font-family: monospace;
@@ -86,4 +86,8 @@ code {
 .meme img {
    position: absolute;
    top: 0;
+}
+
+.meme.wee {
+   background: #FFF url(/image/mike/images/wee.png) bottom right;
 }

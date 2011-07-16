@@ -1,6 +1,3 @@
-<!SLIDE center>
-# Questions?
-
 <!SLIDE center main>
 <header>
   <h1 style="color: black">Thank you!</h1>
@@ -16,6 +13,12 @@
   </div>
 </footer>
 
+<!SLIDE center main>
+<h1>Thanks for showoff!</h1>
+<footer>
+  <a href="http://github.com/.../showoff">http://github.com/.../showoff</a>
+</footer>
+
 <!SLIDE center bullets with-title>
 # Resources
 
@@ -24,3 +27,6 @@
 * [http://v8.googlecode.com](http://v8.googlecode.com)
 * [http://chromium.org](http://chromium.org)
 * [http://github.com/joyent/node](http://github.com/joyent/node)
+
+<!SLIDE center>
+# Questions?

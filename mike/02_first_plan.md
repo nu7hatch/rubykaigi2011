@@ -18,7 +18,7 @@
 <!SLIDE center>
 <h1 style="font-size: 70px; line-height: 100px;">
 Fast V8 extension for Ruby<br />
-+<br />
+<small style="color: #555; font-size: 60px;">+</small><br />
 Browser implementation
 </h1>
 

@@ -1,4 +1,4 @@
-<!SLIDE center main>
+<!SLIDE center main chicken>
 <header style="font-size: 34px;">
   <a href="http://github.com/nu7hatch/mike">http://github.com/nu7hatch/mike</a>
 </header>
@@ -6,11 +6,8 @@
   Introducing Mike!<br />
   <small>The headless chicken</small>
 </h1>
-<footer>
-  chicken...
-</footer>
 
-<!SLIDE center main>
+<!SLIDE center main chicken>
 <header style="font-size: 34px;">
   <a href="http://github.com/nu7hatch/mike">http://github.com/nu7hatch/mike</a>
 </header>
@@ -18,14 +15,11 @@
   Introducing Mike!<br />
   <small>The headless <span style="background: #AADDFF; padding: 2px 8px;">browser</span></small>
 </h1>
-<footer>
-  chicken...
-</footer>
 
 <!SLIDE center>
 <h1 style="font-size: 55px; line-height: 85px;">
 Browser with testing API in C++<br />
-+<br />
+<small style="color: #555; font-size: 60px;">+</small><br />
 Native extensions in Ruby, Python
 </h1>
 
@@ -59,18 +53,50 @@ Native extensions in Ruby, Python
   <li>Multiple Windows</li>
 </ul>
 
+<!SLIDE with-title>
+# Windows
+
+    @@@ruby
+    browser = Browser.new
+    page = browser.open("http://cuboxsa.com");
+    page.click_link("Blog");
+    
+    assert_equal "http://cuboxsa.com",
+                 browser.windows[0].url
+    assert_equal "http://cuboxsa.com/blog",
+                 browser.windows[1].url
+   
 <!SLIDE center bullets>
 <ul>
   <li class="blur">Multiple Windows</li>
   <li>Frames support</li>
 </ul>
 
+<!SLIDE with-title>
+# Frames
+
+    @@@ruby
+    page = browser.open("http://cuboxsa.com/frames.html")
+    page.frames[1]
+    page.frames["side"]
+    ...
+    
 <!SLIDE center bullets>
 <ul>
   <li class="blur">Multiple Windows</li>
   <li class="blur">Frames support</li>
   <li>Basic user interaction</li>
 </ul>
+
+<!SLIDE with-title>
+# User interaction
+
+    @@@ruby
+    page = browser.open("http://cuboxsa.com")
+    page.click_link("Contact");
+
+    assert_equal "http://cuboxsa.com/contact.html", 
+                 page.url
 
 <!SLIDE center bullets>
 <ul>
@@ -80,6 +106,25 @@ Native extensions in Ruby, Python
   <li>Basic JavaScript execution</li>
 </ul>
 
+<!SLIDE with-title>
+# JavaScript
+
+    @@@html
+    <html>
+    <body>
+      <script>
+        var foo = 1;
+        foo += 10;
+      </script>
+    </body>
+    </html>
+
+<!SLIDE with-title>
+# JavaScript
+    
+    @@@ruby
+    assert_equal 11, page.evaluate("foo").to_i
+
 <!SLIDE center bullets>
 <ul>
   <li class="blur">Multiple Windows</li>
@@ -88,6 +133,14 @@ Native extensions in Ruby, Python
   <li class="blur">Basic JavaScript execution</li>
   <li>Alerts/popups mocking</li>
 </ul>
+
+<!SLIDE with-title>
+# Alerts
+
+    @@@ruby
+    browser.expect_alert("Hello world!")
+    browser.expect_confirm("Are you sure?", true)
+    browser.open("http://cuboxsa.com/alerts.html")
 
 <!SLIDE center bullets>
 <ul>
