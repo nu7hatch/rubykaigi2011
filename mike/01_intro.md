@@ -12,6 +12,9 @@
 <!SLIDE center>
 # Polska!
 
+<!SLIDE center>
+<img src="images/polishtroll.jpg" />
+
 <!SLIDE center main>
 <h1>
   <small>Montevideo</small><br />
@@ -19,7 +22,10 @@
 </h1>
 
 <!SLIDE center>
-Cubox logo
+<img src="images/uruguaytroll.jpg" />
+
+<!SLIDE center>
+<img src="images/cubox.png" />
 
 <!SLIDE center main>
 <h1>
